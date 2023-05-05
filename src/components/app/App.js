@@ -2,6 +2,7 @@ import { Component } from "react";
 import styles from "./app.module.css";
 import EmployeesFormOnState from "../EmployeesFormOnState/EmployeesFormOnState";
 import FormCustomHook from "../FormCustomHook/FormCustomHook";
+import SliderUseReducer from "../SliderUseReducer/SliderUseReducer";
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
         <EmployeesFormOnState />
         <h1 className={styles.title}>Custom Hook example</h1>
         <FormCustomHook />
+        <SliderUseReducer />
       </div>
     );
   }
